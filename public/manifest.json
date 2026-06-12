@@ -1,0 +1,50 @@
+{
+  "name": "احجزلي",
+  "short_name": "احجزلي",
+  "description": "نظام حجوزات للمستشفيات والعيادات والحلاقين والصالونات",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#4f46e5",
+  "dir": "rtl",
+  "lang": "ar",
+  "orientation": "portrait",
+  "categories": [
+    "business",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot.png",
+      "sizes": "390x844",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "حجز جديد",
+      "short_name": "حجز",
+      "url": "/?book=true",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

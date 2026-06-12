@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>أنت غير متصل بالإنترنت — احجزلي</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background-color: #f8fafc;
+      color: #334155;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    .card {
+      background: white;
+      padding: 40px 30px;
+      border-radius: 24px;
+      box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05), 0 0 0 1px rgb(0 0 0 / 0.02);
+      max-width: 400px;
+      width: 100%;
+    }
+    .icon {
+      background-color: #fee2e2;
+      color: #ef4444;
+      width: 64px;
+      height: 64px;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 24px auto;
+      font-size: 32px;
+    }
+    h1 {
+      font-size: 20px;
+      font-weight: 700;
+      margin: 0 0 10px 0;
+      color: #1e293b;
+    }
+    p {
+      font-size: 14px;
+      color: #64748b;
+      margin: 0 0 24px 0;
+      line-height: 1.5;
+    }
+    .btn {
+      display: inline-block;
+      background-color: #4f46e5;
+      color: white;
+      text-decoration: none;
+      padding: 12px 24px;
+      border-radius: 12px;
+      font-size: 14px;
+      font-weight: 500;
+      transition: background-color 0.2s;
+    }
+    .btn:hover {
+      background-color: #4338ca;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="icon">📡</div>
+    <h1>عذراً، لا يوجد اتصال بالإنترنت</h1>
+    <p>يبدو أنك غير متصل بالشبكة حالياً. يرجى التحقق من اتصال الواي فاي أو بيانات الهاتف وإعادة المحاولة.</p>
+    <a href="javascript:window.location.reload();" class="btn">إعادة المحاولة</a>
+  </div>
+</body>
+</html>
